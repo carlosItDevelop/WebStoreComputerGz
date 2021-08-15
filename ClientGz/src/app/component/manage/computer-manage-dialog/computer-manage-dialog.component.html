@@ -1,0 +1,141 @@
+<!--h1 mat-dialog-title>{{action}} Computer</h1>
+<div mat-dialog-content fxLayoutGap="20px" style="width:1000px">
+    <mat-form-field>
+        <mat-label>Name :</mat-label>
+        <input matInput placeholder="enter name" [(ngModel)]="local_data.name">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Price :</mat-label>
+        <input matInput placeholder="enter price" [(ngModel)]="local_data.price">
+    </mat-form-field>
+
+    <mat-form-field style="width: 400px;">
+        <mat-label>Info :</mat-label>
+        <input matInput placeholder="enter info" [(ngModel)]="local_data.info">
+    </mat-form-field>
+
+    <br><br>
+    <mat-form-field>
+        <mat-label>Cpu :</mat-label>
+        <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.cpu">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Disk</mat-label>
+        <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.disk">
+    </mat-form-field>
+
+    <br><br>
+    <mat-form-field>
+        <mat-label>Ram</mat-label>
+        <input matInput placeholder="enter size" [(ngModel)]="local_data.compon.ram">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Screen</mat-label>
+        <input matInput placeholder="enter size" [(ngModel)]="local_data.compon.screen">
+    </mat-form-field>
+    <br><br>
+    <mat-form-field>
+        <mat-label>Pin</mat-label>
+        <input matInput placeholder="enter size" [(ngModel)]="local_data.compon.pin">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Weight</mat-label>
+        <input matInput placeholder="enter weight" [(ngModel)]="local_data.compon.weight">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Size</mat-label>
+        <input matInput placeholder="enter weight" [(ngModel)]="local_data.compon.size">
+    </mat-form-field>
+    <br><br>
+    <label>Avaible :</label>
+    <mat-radio-group [(ngModel)]="local_data.status">
+        <mat-radio-button [value]=true>true</mat-radio-button>
+        <mat-radio-button [value]=false>false</mat-radio-button>
+    </mat-radio-group>
+    <br>
+    <br>
+    <img [src]="url" *ngIf="url" style="max-width: 600px;">
+    <br>
+    <p>
+        <input type="file" (change)="selectFile($event)">
+    </p>
+
+</div>
+
+<mat-dialog-actions>
+    <button mat-raised-button  (click)="doAction()">Save</button>
+    
+    <button mat-button matTooltip="Exit" mat-dialog-close>
+        <mat-icon>exit_to_app</mat-icon>
+    </button>
+</mat-dialog-actions-->
+
+<div class='row'>
+    <div class='column1' style="background-color: #E7E9EB;">
+        <mat-form-field>
+            <mat-label>Name :</mat-label>
+            <input matInput placeholder="enter name" [(ngModel)]="local_data.name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Price :</mat-label>
+            <input matInput placeholder="enter price" [(ngModel)]="local_data.price">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Info :</mat-label>
+            <input matInput placeholder="enter info" [(ngModel)]="local_data.info">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Cpu :</mat-label>
+            <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.cpu">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Disk</mat-label>
+            <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.disk">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Ram</mat-label>
+            <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.ram">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Screen</mat-label>
+            <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.screen">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Pin</mat-label>
+            <input matInput placeholder="enter type" [(ngModel)]="local_data.compon.pin">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Weight</mat-label>
+            <input matInput placeholder="enter size" [(ngModel)]="local_data.compon.weight">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Size</mat-label>
+            <input matInput placeholder="enter size" [(ngModel)]="local_data.compon.size">
+        </mat-form-field>
+    </div>
+    <div class='column2'>
+        <input type="file" (change)="selectFile($event)" style="max-width:350px;">
+        <br>
+        <hr>
+        <div style="height: 250px;">
+            <img [src]="url" *ngIf="url" style="width: 100%;max-height: 250px;">
+        </div>
+        <hr>
+        <label>Avaible :</label>
+        <mat-radio-group [(ngModel)]="local_data.status">
+            <mat-radio-button [value]=true>true</mat-radio-button>
+            <mat-radio-button [value]=false>false</mat-radio-button>
+        </mat-radio-group>
+        <hr>
+        <div style="text-align: center;margin-top: 60px;" >
+            <button mat-raised-button   (click)="doAction()" style="width: 200px;padding: 10px;">Save</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  } 
+
+  .textIcon{
+    text-indent: 20px;
+    font-weight:normal;
+}
+
+.row {
+  display: flex;
+  width: 1200px;
+  height: 600px;
+}
+
+.column1 {
+  flex: 70%;
+  padding: 10px;
+  text-align: center;
+}
+.column2 {
+  flex: 30%;
+  padding: 10px;
+}
+mat-form-field{
+  width: 100%;
+}

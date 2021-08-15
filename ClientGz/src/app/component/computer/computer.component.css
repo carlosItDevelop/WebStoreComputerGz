@@ -1,0 +1,55 @@
+.grid-container {
+    margin: 30px;
+}
+    
+.content {
+    padding: 16px;
+}
+    
+.content > mat-card {
+    width: 200px;
+}
+    
+.textIcon{
+    text-indent: 40px;
+    font-weight:normal;
+}
+  
+.mat-elevation-z4{
+    cursor:pointer;
+    text-align: center;
+    height: 430px;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mat-elevation-z4:hover{
+    box-shadow: 0 8px 16px 0 rgb(155, 156, 158);
+}
+
+.price{
+  color: grey;
+  font-size: 22px;
+  background-color: #282A35;
+  color:white;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.search{
+    display: inline-block;
+}
+
+.searchInput{
+    width: 500px;
+    height: 35px;
+}
+
+.sort{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+

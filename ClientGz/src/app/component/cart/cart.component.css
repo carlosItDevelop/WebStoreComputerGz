@@ -1,0 +1,48 @@
+.textIcon{
+        text-indent: 20px;
+        
+        
+        margin-right: 10px;
+       
+    }
+
+ .ctn{
+        width: 20px;
+        background-color: white;
+        border-style: solid;
+        border-color:rgb(189, 190, 190);
+        border-width: 1px;
+        cursor: pointer;
+        
+    }
+
+.remove{
+    float:right;
+    background-color: white;
+    border-style: solid;
+    cursor: pointer;
+    border-color:rgb(189, 190, 190);
+    border-width: 1px;   
+}
+
+.mat-elevation-z4{
+    height: 370px;
+   
+    overflow: hidden;
+}
+
+.price{
+    color: grey;
+  font-size: 22px;
+}
+
+.title{
+    text-align: center;
+    background-color: #282A35;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+    font-weight: 500;
+}

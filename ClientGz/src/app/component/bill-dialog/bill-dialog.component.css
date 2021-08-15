@@ -1,0 +1,47 @@
+.textIcon{
+    text-indent: 20px;
+}
+.total {
+  font-weight: 6px;
+  font-size: 16px;
+}
+
+.inlineItem{
+    display : flex;
+    justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+}
+
+.column1 {
+  flex: 30%;
+  padding: 10px;
+  text-align: center;
+}
+.column2 {
+  flex: 70%;
+  padding: 10px;
+}
+
+.title{
+  background-color: #282A35;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.price{
+  color: grey;
+font-size: 22px;
+}
+
+.mat-elevation-z4{
+  text-align: center;
+  height: 300px;
+}

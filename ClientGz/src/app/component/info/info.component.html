@@ -1,0 +1,24 @@
+<h2></h2>
+<div><img src="assets/images/d.jpg" style="height: 200px;"></div>
+
+<h1 mat-dialog-title>Hi {{account.name}}</h1>
+<div mat-dialog-content fxLayoutGap="20px">
+    <mat-form-field>
+        <mat-label>Name :</mat-label>
+        <input matInput placeholder="enter name" [(ngModel)]="account.nameReceiver">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Phone :</mat-label>
+        <input matInput placeholder="enter phone" [(ngModel)]="account.phone">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Address :</mat-label>
+        <input matInput placeholder="enter address" [(ngModel)]="account.address">
+    </mat-form-field>
+</div>
+<mat-dialog-actions>
+    <button mat-raised-button (click)="save()" mat-dialog-close>Save</button>
+    <button mat-raised-button (click)="logout()" mat-dialog-close>Logout</button>
+</mat-dialog-actions>

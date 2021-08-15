@@ -1,0 +1,80 @@
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+.statusText {
+  color : #777777;
+  margin-left: 4px;
+  display: inline-block;
+}
+.status{
+  display: inline-block;
+}
+.test{
+  width : 100%
+}
+  .textIcon{
+    text-indent: 20px;
+    font-weight:normal;
+}
+.total {
+  font-weight: 6px;
+  font-size: 16px;
+}
+
+.inlineItem{
+
+    display : flex;
+    justify-content: space-between;
+
+}
+.button {
+  background-color: #0c0a0c; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.row {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+}
+
+.column1 {
+  flex: 30%;
+  padding: 10px;
+ 
+}
+.column2 {
+  flex: 70%;
+  padding: 10px;
+}
+
+.title{
+  background-color: #282A35;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.price{
+  color: grey;
+font-size: 22px;
+}
+
+.mat-elevation-z4{
+  text-align: center;
+  height: 300px;
+}
+
+.list{
+  background-color:#E7E9EB;
+  height: 400px;
+  overflow: auto;
+  padding: 10px;
+}
