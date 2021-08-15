@@ -1,7 +1,8 @@
 # WebStoreComputerGz
 web app project for pbl3 at university Da Nang , use asp net core and angular
 
-Back End : Asp Net Core
+Back End : Asp Net Core 
+
 Front End : Angular
 
 To run code , install code , nodejs ,asp net
