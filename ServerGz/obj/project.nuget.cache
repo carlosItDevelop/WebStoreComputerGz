@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7knl+kjkwkom9xp3BTISZJbv/LSZM6I0a5ZLaYCHRqF6ztyak9aN7NlZNy+rrXQy8NTFiHqnJzEoWPB871so1w==",
+  "dgSpecHash": "/ug9zpTWMl2DC8AIVvFbMxaoMtJs9pehlrgI2YWpMzru/6qPBHCGPz5VEwu0aIlP+YoVGmACY++bsLbn9/6A8w==",
   "success": true,
-  "projectFilePath": "/home/gz/CuaHangMayTinh/ServerGz/ServerGz.csproj",
+  "projectFilePath": "/home/gz/WebStoreComputerGz/ServerGz/ServerGz.csproj",
   "expectedPackageFiles": [
     "/home/gz/.nuget/packages/htmlagilitypack/1.11.34/htmlagilitypack.1.11.34.nupkg.sha512",
     "/home/gz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

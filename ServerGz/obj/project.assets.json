@@ -5601,11 +5601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gz/CuaHangMayTinh/ServerGz/ServerGz.csproj",
+      "projectUniqueName": "/home/gz/WebStoreComputerGz/ServerGz/ServerGz.csproj",
       "projectName": "ServerGz",
-      "projectPath": "/home/gz/CuaHangMayTinh/ServerGz/ServerGz.csproj",
+      "projectPath": "/home/gz/WebStoreComputerGz/ServerGz/ServerGz.csproj",
       "packagesPath": "/home/gz/.nuget/packages/",
-      "outputPath": "/home/gz/CuaHangMayTinh/ServerGz/obj/",
+      "outputPath": "/home/gz/WebStoreComputerGz/ServerGz/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gz/.nuget/NuGet/NuGet.Config"
