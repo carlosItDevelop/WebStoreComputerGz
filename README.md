@@ -6,7 +6,7 @@ Back End : Asp Net Core
 Front End : Angular
 
 To run code , install code , nodejs ,asp net
-Run :
+Run:
   + go to folder ServerGz : run command $dotnet run
   + go to folder ClientGz : run command $ng serve
   + web app run at : http://localhost:5000
